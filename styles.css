@@ -59,6 +59,21 @@ body, html {
   width: 75%;
 }
 
+.appreciation-picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 56%;
+}
+
+.trusted-supporters-picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 58%;
+}
+
+
 .about-text{
   display: block;
   margin-left: auto;
