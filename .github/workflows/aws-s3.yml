@@ -8,6 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    uses: jehudson/motcombepool:main
     with:
         args: --acl public-read --follow-symlinks --delete
     env:
