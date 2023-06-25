@@ -15,11 +15,7 @@ jobs:
 
       
 
-      # Check out the new branch
-      - name: checkout dist
-        uses: actions/checkout@master
-        with:
-          ref: dist
+      
 
       # Fix timestamps
       - name: restore timestamps
