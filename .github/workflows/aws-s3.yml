@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: jakejarvis/s3-sync-action@master
-      - uses: chetan/invalidate-cloudfront-action@v2
+      
         with:
           args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*'
         env:
@@ -20,5 +20,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           SOURCE_DIR: ./
-          DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
-          PATHS: /*
+          
