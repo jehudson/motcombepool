@@ -1,4 +1,4 @@
-- name: Invalidate CloudFront
+name: Invalidate CloudFront
   uses: chetan/invalidate-cloudfront-action@v2
   env:
     DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
