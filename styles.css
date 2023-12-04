@@ -167,6 +167,7 @@ body, html {
   font-size: 12px;
 }
 
-.test {
-  
+.story-background-title {
+  background-image: url('images\IMG_20230920_130528466.jpg')
 }
+
